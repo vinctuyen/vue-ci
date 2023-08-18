@@ -11,6 +11,7 @@ import SupportIcon from './icons/IconSupport.vue'
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
+      
     </template>
     <template #heading>Documentation</template>
 
@@ -56,9 +57,9 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
+          <template #icon>
+              <CommunityIcon />
+            </template>
     <template #heading>Community</template>
 
     Got stuck? Ask your question on
